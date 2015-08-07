@@ -1,6 +1,8 @@
 <template name="home">
 {{#markdown}}
-## Welcome to my Blog
-Here I'm talking about my latest discoveries from the world of JavaScript.
+## Welcome to my Blog.
+Here I'm talking about my lastest discoveries from the world of JavaScript.
 {{/markdown}}
+{{{exampleHelper}}}
+{{> contentExample someText="I was set in the parent template's helper, as an argument."}}
 </template>
